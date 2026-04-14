@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Series Clásicas y Anime</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin:0; padding:0; background:#fbfbfb; color:#222; }
+    header { background: linear-gradient(90deg,#2b2f77,#4f5bd5); color:white; padding:2rem 1rem; text-align:center; }
+    main { max-width:1000px; margin:1.5rem auto; padding:1rem; }
+    .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:1rem; }
+    .card { background:white; border-radius:10px; box-shadow:0 6px 18px rgba(20,30,80,0.08); overflow:hidden; text-decoration:none; color:inherit; }
+    .card img { width:100%; height:160px; object-fit:cover; display:block; }
+    .card .body { padding:0.9rem; }
+    footer { text-align:center; padding:1rem; color:#666; font-size:0.9rem; }
+    nav a { color: white; text-decoration:none; margin:0 0.4rem; }
+    .intro { line-height:1.6; }
+    @media (max-width:420px){ header{padding:1rem} .card img{height:120px} }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Series Clásicas y Anime</h1>
+    <p>Un recorrido breve por algunas series animadas — clásicas y de estilo anime — con enlaces a páginas dedicadas.</p>
+    <nav>
+      <a href="supersonics.html">Supersonics</a> |
+      <a href="picapiedras.html">Los Picapiedras</a> |
+      <a href="pinky-cerebro.html">Pinky y Cerebro</a> |
+      <a href="cowboy-bebop.html">Cowboy Bebop</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>¿Qué vas a encontrar aquí?</h2>
+      <p>Esta micro web contiene una página principal con una introducción al mundo de la animación y enlaces a cuatro fichas de series. Puedes usar las páginas como plantilla: cambia textos, añade imágenes reales o amplía el contenido.</p>
+    </section>
+
+    <section>
+      <h2>Explora las fichas</h2>
+      <div class="cards">
+        <a class="card" href="supersonics.html">
+          <img src="https://i.pinimg.com/550x/9b/18/b3/9b18b3af2166c85fd4f5cf1c90694f8c.jpg" alt="Supersonics - imagen">
+          <div class="body">
+            <h3>Supersonics</h3>
+            <p>Serie con aire retro y aventuras familiares. Ficha con historia y personajes.</p>
+          </div>
+        </a>
+
+        <a class="card" href="picapiedras.html">
+          <img src="https://i.pinimg.com/originals/48/97/be/4897be5b5e2d754b0c7f2b8d040a19f1.jpg" alt="Los Picapiedras - imagen">
+          <div class="body">
+            <h3>Los Picapiedras</h3>
+            <p>Clásicos prehistóricos: comedia, sociedad y tecnología “a la piedra”.</p>
+          </div>
+        </a>
+
+        <a class="card" href="pinky-cerebro.html">
+          <img src="https://wallpapers.com/images/hd/pinky-and-the-brain-galaxy-themed-poster-bxb3nt5os3hplm49.jpg" alt="Pinky y Cerebro - imagen">
+          <div class="body">
+            <h3>Pinky y Cerebro</h3>
+            <p>Dúo cómico: un plan maestro por episodio y la fórmula humorística.</p>
+          </div>
+        </a>
+
+        <a class="card" href="cowboy-bebop.html">
+          <img src="https://images7.alphacoders.com/661/thumb-1920-661993.png" alt="Cowboy Bebop - imagen">
+          <div class="body">
+            <h3>Cowboy Bebop</h3>
+            <p>Anime clásico, mezcla de jazz, space-western y personajes inolvidables.</p>
+          </div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <small>Plantilla creada rápidamente — edítala como quieras. Imágenes: <em>placeholders</em> (Unsplash random).</small>
+  </footer>
+</body>
+</html>
